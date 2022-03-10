@@ -11,6 +11,7 @@ import com.guilhermelinares.demospring.entities.User;
 @RequestMapping(value = "/users")
 public class UserResource {
 
+	
 	@GetMapping
 	public ResponseEntity<User> findAll() {
 		User u = new User (1L, "Maria", "Maria@gamil.com", "98675847", "123456");
